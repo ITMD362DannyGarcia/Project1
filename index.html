@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" type="text/css" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <script src="js/script.js" async></script>
 </head>
 <body>
 
   <h2>Amazing Software Beta Test Sign Up!</h2>
 
-  <form method="GET" action = "#null" autocomplete="on" id="signup">
+  <form method="GET" action = "#null" autocomplete="on" id="signup" name="myForm" onsubmit="return magic()">
     <p><label for="fname">First Name:</label>
     <input type="text" name="firstname" placeholder="Enter Your First Name" id="fname"></p>
 
