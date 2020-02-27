@@ -13,6 +13,16 @@ h2{
 	padding-bottom:20px;
 }
 
+h3{
+	padding-top:10px;
+	text-align: center;
+	font-family: arial;
+	padding-bottom:10px;
+  line-height: 20px;
+  color: green;
+  font-style:italic;
+}
+
 p {
   font-size: 1em;
   text-align: center;
