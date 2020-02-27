@@ -1,23 +1,23 @@
 html {
-   line-height: 1.2em;
-   font-family: verdana;
-   font-size: 15px;
-	 background-color: #f2e6ff;
+  line-height: 1.2em;
+  font-family: verdana;
+  font-size: 15px;
+  background-color: #f2e6ff;
 
 }
 
 h2{
-	padding-top:30px;
-	text-align: center;
-	font-family: Courier;
-	padding-bottom:20px;
+  padding-top:30px;
+  text-align: center;
+  font-family: Courier;
+  padding-bottom:20px;
 }
 
 h3{
-	padding-top:10px;
-	text-align: center;
-	font-family: arial;
-	padding-bottom:10px;
+  padding-top:10px;
+  text-align: center;
+  font-family: arial;
+  padding-bottom:10px;
   line-height: 20px;
   color: green;
   font-style:italic;
@@ -36,22 +36,22 @@ label{
   background-color: #ffffff;
   text-align: center;
 
-	background-color: #f2e6ff;
+  background-color: #f2e6ff;
 
-	color: gray;
+  color: gray;
 }
 
 
 form{
   padding-top: 25px;
-	border: 1px solid #000;
-	text-align: center;
+  border: 1px solid #000;
+  text-align: center;
 
 }
 
 
 input {
-	display: table-cell;
+  display: table-cell;
 
 }
 
@@ -74,25 +74,25 @@ input {
 }
 
 @media screen and (min-width: 1080px) {
-	form{
-		background-color: lightblue;
-		font-family:monospace;
-		/*Unique Color and text for fullscreen Desktop Users*/
-	}
+  form{
+    background-color: lightblue;
+    font-family:monospace;
+    /*Unique Color and text for fullscreen Desktop Users*/
+  }
 
-	label {
+  label {
     display: inline-block;
     color: black;
     margin-right: 5px;
     font-size: 1.3em;
 
-		background-color: lightblue;
+    background-color: lightblue;
 
-  }
+   }
 
-  div {
-    display: inline;
-  }
+   div {
+     display: inline;
+   }
 
 
 
