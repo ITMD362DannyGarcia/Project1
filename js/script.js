@@ -6,5 +6,7 @@ function magic(){
   if (email == "") {
     alert("Remember to enter your email!");
     return false;
+  } else{
+    alert("Great, you're all signed up for the beta!")
   }
 }
